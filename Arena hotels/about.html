@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="content flex_space">
+      <div class="logo">
+        <img src="images/logo 5.jpg" height="35%" alt="">
+      </div>
+      <div class="navlinks">
+        <ul id="menulist">
+          <li><a href="index.html">home</a> </li>
+          <li><a href="about.html">about</a> </li>
+          <li><a href="room.html">rooms</a> </li>
+          <li><a href="services.html">Services</a> </li>
+          <li><a href="foods.html">Dinning</a> </li>
+          <li><a href="news.html">news</a> </li>
+          <li><a href="contactus.html">contact</a> </li>
+          <li> <i class="fa fa-search"></i> </li>
+          <li><a href="booking.html"> <button class="primary-btn">BOOK NOW</button> </a></li>
+        </ul>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+      </div>
+    </div>
+  </header>
+
+    <section class="about top">
+        <div class="container flex">
+          <div class="left">
+            <div class="heading">
+              <h1>WELCOME</h1>
+              <h2>ARENA Hotel</h2>
+            </div>
+            <p>We are absolutely delighted to have you as our esteemed guests and extend our hospitality to ensure your stay is truly unforgettable. Whether you are here for business or leisure, rest assured that our dedicated team is committed to making your experience exceptional in every way.Our mission is to provide you with the highest level of comfort and convenience. From our thoughtfully designed rooms and suites, equipped with modern amenities, to our culinary delights served in our delightful restaurant, every aspect of your stay has been crafted with your comfort in mind.At ARENA Hotels, we believe that true hospitality is not just about accommodation; it's about creating lasting memories. Whether you are exploring the vibrant city sights or indulging in our range of recreational facilities, we want you to feel at home away from home.</p>
+            <a href="news.html"><button class="primary-btn">NEWS</button></a>
+          </div>
+          <div class="right">
+            <img src="images/lobby.jpg" height="350" width="550" alt="">
+          </div>
+        </div>
+      </section>
+    
+      <section class="counter top">
+        <div class="container grid">
+          <div class="box">
+            <h1>2500</h1>
+            <hr>
+            <span>Customer</span>
+          </div>
+          <div class="box">
+            <h1>1250</h1>
+            <hr>
+            <span>Happy Customer</span>
+          </div>
+          <div class="box">
+            <h1>150</h1>
+            <hr>
+            <span>Expert Technicians</span>
+          </div>
+          <div class="box">
+            <h1>320+</h1>
+            <hr>
+            <span>Service Crew</span>
+          </div>
+        </div>
+      </section>
+    
+    
+    
+      <script>
+        $('.owl-carousel1').owlCarousel({
+          loop: true,
+          margin: 40,
+          nav: true,
+          dots: false,
+          navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+          responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 2,
+              margin: 10,
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+      </script>
+
+
+
+<div class="abtphotos">
+  <img src="Images/crew.jpeg" width="1900" >
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

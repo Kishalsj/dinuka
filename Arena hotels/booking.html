@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="bk.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="content flex_space">
+          <div class="logo">
+            <img src="images/logo 5.jpg" height="35%" alt="">
+          </div>
+          <div class="navlinks">
+            <ul id="menulist">
+              <li><a href="index.html">home</a> </li>
+              <li><a href="about.html">about</a> </li>
+              <li><a href="room.html">rooms</a> </li>
+              <li><a href="services.html">Services</a> </li>
+              <li><a href="foods.html">Dinning</a> </li>
+              <li><a href="news.html">news</a> </li>
+              <li><a href="contactus.html">contact</a> </li>
+              <li> <i class="fa fa-search"></i> </li>
+              <li><a href="booking.html"> <button class="primary-btn">BOOK NOW</button> </a></li>
+            </ul>
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+          </div>
+        </div>
+      </header>
+
+      <section class="gallery">
+        <div class="container top">
+          <div class="heading">
+            <h1>RESERVE</h1>
+            <h2>Bookings</h2>
+            <p>Place Your Order Here !!</p>
+          </div>
+        </div>
+
+        <div class="bf-container">
+
+            <div class="bf-body">
+            
+                <div class="bf-head">
+                    <h1>Booking</h1>
+                    <p>Lets Start To Booking your Room</p>
+                    
+                </div>
+            <form class="bf-body-box" action="booking.php" method="post">
+            <div class="bf-row">
+            
+                <div class="bf-col-6">
+                    <p>Your Name</p>
+                    <input type="text" name="Name" id="fname" placeholder="Your Name">
+                </div>
+                <div class="bf-col-6">
+                    <p>Email Address</p>
+                    <input type="email" name="Email" id="email" placeholder="Email Address">
+            </div>         
+            
+            </div>
+            
+            
+            <div class="bf-row">
+            
+                <div class="bf-col-6">
+                    <p>Select Date</p>
+                    <input type="date" name="Date" id="date" >
+                </div>
+                <div class="bf-col-6">
+                    <p>Select Number</p>
+                   <select name="Number" >
+                    <option>Select Number</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+            
+                   </select>
+            </div>         
+            
+            </div>
+            
+            <div class="bf-row">
+            
+                <div class="bf-col-12">
+                    <p>Message</p>
+                    <textarea name="Message" id="Message" cols="10" rows="2"></textarea>
+                </div>
+                   
+            
+            </div>
+            
+            <div class="bf-row">
+            
+                <div class="bf-col-3">
+                    <input type="submit" value="submit">
+                </div>
+                   
+            
+            </div>
+            
+            
+            </form>
+            
+            <div class="bf-footer">
+                <p>
+                    Copyright (c) 2022 Copyright Holder All Rights Reserved.
+                </p>
+            </div>
+            
+            
+            </div>
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+
+
+
+
+
+
+
+
+    </section>  
+</body>
+</html>
